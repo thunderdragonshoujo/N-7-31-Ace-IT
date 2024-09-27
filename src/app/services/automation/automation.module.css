@@ -1,0 +1,360 @@
+/*  commons  */
+
+.header {
+  justify-content: center;
+  align-items: center;
+  width: 80rem;
+  height: 50vw;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.843);
+  padding-top: 10vw;
+}
+
+.line1 {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.head1 {
+  font-size: clamp(1.5rem, 3.8vw, 3.8rem);
+  font-weight: 700;
+}
+
+.normal {
+  font-weight: 100;
+}
+
+.contentContainerColumn {
+  width: clamp(20rem, 75vw, 80rem);
+  flex-direction: column;
+  margin-bottom: clamp(0.5rem, 1vw, 1rem);
+  display: flex;
+  gap: clamp(1rem, 3vw, 3rem);
+  margin-top: clamp(1rem, 3vw, 3rem);
+  align-self: center;
+}
+
+.contentContainerRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading1 {
+  font-size: var(--section-heading);
+  font-weight: 700;
+}
+
+.text1 {
+  font-size: var(--lg-text);
+}
+.text2 {
+  font-size: var(--content-text);
+}
+
+/*  contact container styles */
+
+.devSection {
+  margin-bottom: clamp(2rem, 3vw, 3rem);
+  margin-top: 8vw;
+  background-color: black;
+  width: clamp(20rem, 79vw, 80rem);
+  height: 20vw;
+  gap: clamp(0.2rem, 0.5vw, 0.5rem);
+  display: flex;
+  /* flex-direction: column; */
+  padding: clamp(1rem, 2vw, 2rem);
+  justify-content: center;
+}
+
+.devContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.7rem, 1.2vw, 1.2rem);
+  width: clamp(20rem, 35vw, 35rem);
+}
+
+.contactCard1 {
+  display: flex;
+  font-size: clamp(0.7rem, 2vw, 2rem);
+  color: rgb(255, 255, 255);
+  width: 15vw;
+}
+
+.contactCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(0.7rem, 2vw, 2rem);
+  color: black;
+  background-color: #8fd5cc;
+  border-radius: clamp(0.7rem, 2vw, 2rem);
+  height: clamp(2.5rem, 5vw, 5rem);
+  width: clamp(7rem, 15vw, 15rem);
+}
+.servieText {
+  font-size: clamp(0.5rem, 1vw, 1rem);
+  color: white;
+  line-height: clamp(0.7rem, 1.8vw, 1.8rem);
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  gap: clamp(0.7rem, 2vw, 2rem);
+  align-items: center;
+}
+.imgMin {
+  width: clamp(0.5rem, 1vw, 1rem);
+  height: auto;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.5rem, 1.2vw, 1.2rem);
+  background: white;
+  border-radius: 1vw;
+  padding: clamp(0.7rem, 2vw, 2rem);
+  width: clamp(20rem, 34vw, 34rem);
+  height: clamp(15rem, 24vw, 24rem);
+}
+.inputItem {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.5rem, 1vw, 1rem);
+}
+.contactInput {
+  width: clamp(7rem, 14.5vw, 14.5rem);
+  height: clamp(1rem, 3vw, 3rem);
+  /* border-radius: 0.5vw; */
+  padding-left: clamp(0.2rem, 0.5vw, 0.5rem);
+  color: black;
+  font-size: clamp(0.6rem, 1.2vw, 1.2rem);
+  /* background-color: #EBEBEB; */
+  border-bottom: 0.1vw solid #c9c9c9;
+}
+
+.contactInput::placeholder {
+  font-size: clamp(0.5rem, 0.9vw, 0.9rem);
+}
+
+.contactTextArea {
+  width: clamp(20rem, 30.3vw, 30.3rem);
+  height: clamp(7rem, 12vw, 12rem);
+  /* border-radius: 0.5vw; */
+  padding-left: clamp(0.2rem, 0.5vw, 0.5rem);
+  color: black;
+  font-size: clamp(0.7rem, 1.2vw, 1.2rem);
+  padding-top: clamp(0.5rem, 1vw, 1rem);
+  border-bottom: 0.1vw solid #c9c9c9;
+}
+
+/* .contentWidth {
+  width: clamp(20rem, 55vw, 80.6rem);
+} */
+
+.imageFlow {
+  width: 40.6rem;
+  height: auto;
+}
+
+.widthH {
+  width: clamp(20rem, 28vw, 28rem);
+  /* line-height: clamp(2rem, 3.5vw, 3.5rem); */
+}
+.lineWidth {
+  /* width: 31vw; */
+  width: clamp(20rem, 31vw, 51rem);
+  margin-top: clamp(0.5rem, 1vw, 1rem);
+  margin-bottom: clamp(0.5rem, 1vw, 1rem);
+}
+.cicd {
+  width: 35rem;
+}
+
+.formInputs {
+  display: flex;
+  /* gap: 1.2vw; */
+  width: clamp(0.7rem, 1.2vw, 1.2rem);
+}
+
+.formButton {
+  align-self: flex-end;
+  font-size: clamp(0.5rem, 1.2vw, 1.2rem);
+  font-weight: bold;
+  height: clamp(1.5rem, 3vw, 3rem);
+  width: clamp(5rem, 9vw, 9rem);
+  color: white;
+  background-color: rgb(255, 136, 195);
+}
+
+.manualsContainer {
+  text-align: center;
+  width: clamp(25rem, 70vw, 70rem);
+  align-self: center;
+  /* background-color: red; */
+}
+.cardWidth {
+  width: 100%;
+}
+.autoImageWidth {
+  width: 40rem;
+  /* right: clamp(-6rem, -8vw, -8rem); */
+}
+
+.containerWidth {
+  width: 40rem;
+}
+
+.autoCardWidth {
+  width: clamp(20rem, 75vw, 80.6rem);
+}
+@media screen and (max-width: 870px) {
+  .autoCardWidth {
+    width: 20rem;
+  }
+  .parentColumn {
+    opacity: 1;
+    display: flex;
+    transform: none;
+    gap: 5rem;
+    flex-direction: column;
+  }
+  .autoImageWidth {
+    width: 20rem;
+    right: 0;
+  }
+  .cicd {
+    width: 20rem;
+    /* align-self: center; */
+  }
+
+  .flowImage {
+    width: 20rem;
+  }
+  .manualsContainer {
+    margin-top: 9vw;
+  }
+
+  .formInputs {
+    flex-direction: column;
+    width: 100%;
+  }
+  .lineWidth {
+    width: 80vw;
+  }
+  .widthH {
+    width: 50vw;
+  }
+  .imageFlow {
+    width: 75vw;
+  }
+
+  .containerWidth {
+    width: 80vw;
+  }
+  .contentWidth {
+    width: 80vw;
+  }
+  .contentContainerRow {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardWidth {
+    width: 20rem;
+  }
+
+  .alignCenter {
+    align-self: center;
+  }
+
+  .itemCenter {
+    align-items: center;
+  }
+
+  .contentContainerColumn {
+    align-items: center;
+    gap: 10vw;
+  }
+
+  .text1 {
+    font-size: var(--lg-text-mob);
+  }
+  .text2 {
+    font-size: var(--content-text-mob);
+    line-height: clamp(2.4rem, 4.2vw, 4.2rem);
+    width: 20rem;
+  }
+  .heading1 {
+    font-size: var(--section-heading-mob);
+    line-height: 6.5vw;
+    width: 20rem;
+  }
+
+  /*  Conact container styles */
+
+  .devSection {
+    flex-direction: column;
+    background: none;
+  }
+
+  .servieText {
+    font-size: 2.8vw;
+    line-height: normal;
+  }
+
+  .devContentContainer {
+    width: 80vw;
+    gap: 2.5vw;
+  }
+
+  .formContainer {
+    width: 80vw;
+    height: 75vw;
+    margin-top: 4vw;
+  }
+  .contactInput::placeholder {
+    font-size: 2.8vw;
+  }
+  .contactInput {
+    font-size: 2.8vw;
+    width: 100%;
+    height: 6vw;
+    margin-top: 3vw;
+    padding-bottom: 2vw;
+  }
+
+  .contactTextArea {
+    margin-top: 3vw;
+    font-size: 2.8vw;
+    width: 100%;
+    height: 22vw;
+  }
+  .contactTextArea::placeholder {
+    font-size: 2.8vw;
+  }
+
+  .formButton {
+    align-self: flex-end;
+    font-size: 2.8vw;
+    font-weight: bold;
+    height: 8vw;
+    width: 21vw;
+    color: white;
+    background-color: rgb(255, 136, 195);
+  }
+
+  .imgMin {
+    width: 2.8vw;
+  }
+  .contactCard1 {
+    font-size: 5vw;
+  }
+
+  /* ----------- */
+}

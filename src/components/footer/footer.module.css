@@ -1,0 +1,175 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 99vw;
+  align-items: center;
+  background-color: #0d111c;
+}
+.text2 {
+  font-size: var(--content-text);
+  line-height: 1.8rem;
+}
+
+.icon2 {
+  width: 2vw;
+  max-width: 2rem;
+  height: auto;
+}
+
+.icon {
+  width: 2vw;
+  max-width: 2rem;
+  height: auto;
+}
+.icon3 {
+  width: 2vw;
+  height: auto;
+}
+.text1 {
+  font-size: var(--lg-text);
+  margin-left: 2rem;
+}
+
+.widthMin {
+  width: 20vw;
+  max-width: 20rem;
+}
+
+.footerContent {
+  display: flex;
+  width: 80vw;
+  max-width: 85rem  ;
+  justify-content: space-between;
+  margin-top: 6rem;
+}
+
+.footerItem {
+  width: 20vw;
+  max-width: 20rem;
+}
+
+.copyWritsContainer {
+  height: 4rem;
+  width: 99vw;
+  background-color: #000;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 6rem;
+}
+.button {
+  width: 6rem;
+  height: 2.5rem;
+  background-color: #0d111c;
+  margin-top: 2rem;
+  user-select: none;
+  /* border: .15vw solid  ; */
+  /* border-image:linear-gradient(to right, #73317a, #72c1c1) ; */
+}
+
+.heading3 {
+  font-size: 1.5rem;
+}
+
+.inputContainer {
+  color: #000;
+  height: 2.8rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.inputContainer:active {
+  border: none;
+  outline: none;
+}
+
+.aceLogo {
+  width: 11vw;
+  max-width: 11rem;
+  height: auto;
+}
+.marginl {
+  margin-left: 7rem;
+}
+.ok{
+  margin-bottom: 3rem;
+}
+.ok2{
+  margin-left: 4rem;
+}
+.ok3{
+  margin-left: 2rem;
+}
+@media screen and (max-width: 870px) {
+  .ok3{
+    margin-left: 1rem;
+  }
+  .ok2{
+    margin-left: 0;
+  }
+  .copyWritsContainer {
+    height: 10vw;
+  }
+  .aceLogo {
+    width: 25vw;
+    margin-bottom: 4vw;
+  }
+  .icon2 {
+    width: 4vw;
+  }
+
+  .icon {
+    height: auto;
+    width: 4vw;
+  }
+
+  .inputContainer {
+    height: 6vw;
+    margin-top: 0;
+  }
+  .widthMin {
+    width: 100%;
+    /* background-color: aqua; */
+  }
+
+  .button {
+    font-size: var(--lg-text-mob);
+    width: 18vw;
+    height: 7vw;
+  }
+
+  .heading3 {
+    font-size: var(--section-heading3-mob);
+    margin-bottom: 4vw;
+    margin-top: 4vw;
+  }
+  .text1 {
+    font-size: var(--lg-text-mob);
+    margin-left: 1rem;
+  }
+
+  .text2 {
+    font-size: var(--content-text-mob);
+    line-height: 4.2vw;
+  }
+  .marginl {
+    margin-left: 0;
+  }
+  .footerContent {
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .footerItem {
+    width: 38vw;
+  }
+  .icon3 {
+    width: 4.5vw;
+    height: auto;
+  }
+  .ok{
+    margin-bottom: 0;
+  }
+}

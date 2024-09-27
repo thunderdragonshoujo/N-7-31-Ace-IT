@@ -1,0 +1,305 @@
+/**
+ * commons
+ *
+ * @format
+ */
+
+.header {
+  justify-content: center;
+  align-items: center;
+  width: 99vw;
+  height: 44rem;
+  /* background-color: rgba(0, 0, 0, 0.843); */
+  /* top: 20vw; */
+}
+
+.line1 {
+  color: white;
+  font-size: var(--lg-text);
+  font-weight: 300;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.head1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.normal {
+  font-weight: 100;
+}
+
+.helpClient {
+  width: clamp(20rem, 80vw, 80rem);
+  height: auto;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.envParent {
+  display: flex;
+  width: clamp(20rem, 90vw, 90rem);
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.consultingMain {
+  align-items: center;
+  width: 99vw;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  height: auto;
+}
+
+.devScop {
+  display: flex;
+  width: clamp(20rem, 90vw, 90rem);
+  justify-content: space-between;
+}
+/* Primary */
+
+.flexRow {
+  display: flex;
+}
+
+.widthMax {
+  width: 99vw;
+}
+
+.widthMid {
+  width: 80vw;
+}
+
+.widthmin {
+  width: 75vw;
+}
+
+.imgMin {
+  width: clamp(20rem, 25vw, 25rem);
+  height: auto;
+}
+.imgMid {
+  width: clamp(20rem, 40vw, 40rem);
+  height: auto;
+}
+
+.imgCard {
+  width: clamp(10rem, 20vw, 20rem);
+  height: auto;
+}
+
+.imgPy {
+  width: clamp(20rem, 50vw, 50rem);
+  height: auto;
+}
+.imgGrp {
+  width: 23vw;
+  height: auto;
+}
+
+.imgdev {
+  width: clamp(20rem, 28vw, 30rem);
+  height: auto;
+}
+.imgExp {
+  width: clamp(20rem, 35vw, 35rem);
+  height: auto;
+}
+.imgTime {
+  width: clamp(20rem, 38vw, 40rem);
+  height: auto;
+}
+.imgDev {
+  width: clamp(20rem, 40vw, 40rem);
+  height: auto;
+}
+
+.imgApproach {
+  width: clamp(20rem, 40vw, 40rem);
+  height: auto;
+}
+
+.text2 {
+  font-size: 0.8rem;
+  line-height: 1.8rem;
+}
+
+.text1 {
+  font-size: var(--lg-text);
+}
+
+.heading2 {
+  font-size: var(--section-heading2);
+}
+
+.heading1 {
+  font-size: var(--section-heading);
+  font-weight: bold;
+}
+
+.heading3 {
+  font-size: 2rem;
+}
+.btnReadMore {
+  width: 10rem;
+  height: 3rem;
+  margin-top: 2rem;
+}
+
+.btnSignup {
+  color: white;
+  border: 0.2vw solid white;
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: 0.7vw;
+  font-weight: bold;
+  font-size: 1vw;
+}
+.expimg {
+  width: clamp(10rem, 16.5vw, 17rem);
+  height: auto;
+}
+
+.headerImg {
+  width: 100vw;
+  height: auto;
+  background-size: cover;
+}
+
+.mContainer {
+  margin-top: -5.5rem;
+}
+
+@media screen and (max-width: 870px) {
+  .mContainer {
+    margin: 0;
+    text-align: center;
+  }
+
+  .headerImg {
+    height: 60vw;
+  }
+  .expimg {
+    width: 35vw;
+    height: auto;
+  }
+
+  .btnReadMore {
+    width: 20vw;
+    height: 7vw;
+    border-radius: 1vw;
+  }
+  .heading3 {
+    font-size: var(--section-heading3-mob);
+  }
+
+  .heading1 {
+    font-size: var(--section-heading-mob);
+  }
+
+  .heading2 {
+    font-size: var(--section-heading2-mob);
+  }
+
+  .text1 {
+    font-size: var(--lg-text-mob);
+  }
+
+  .btnSignup {
+    font-size: 2.6vw;
+    border-radius: 1.7vw;
+    height: 8vw;
+    width: auto;
+  }
+
+  .text2 {
+    font-size: var(--content-text-mob);
+    line-height: 4.2vw;
+  }
+
+  .imgApproach {
+    width: 100%;
+  }
+  .consultingMain {
+    width: 100vw;
+  }
+  .imgDev {
+    width: 100%;
+  }
+  .imgTime {
+    width: 100%;
+  }
+
+  .imgExp {
+    width: 100%;
+  }
+
+  .imgdev {
+    width: 100%;
+  }
+  .imgCard {
+    width: 100%;
+  }
+  .imgGrp {
+    width: 100%;
+  }
+  .imgPy {
+    width: 100%;
+  }
+
+  .imgMid {
+    width: 100%;
+  }
+  .imgMin {
+    width: 100%;
+  }
+
+  .widthMax {
+    width: 80vw;
+  }
+
+  .widthMid {
+    width: 80vw;
+  }
+
+  .widthmin {
+    width: 80vw;
+  }
+
+  .devScop {
+    flex-direction: column;
+    gap: 10vw;
+  }
+
+  .envParent {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .flexRow {
+    flex-direction: column;
+    margin-bottom: 8vw;
+    gap: 6vw;
+    width: 90vw;
+    align-self: center;
+  }
+
+  .line1 {
+    font-size: var(--lg-text-mob);
+  }
+
+  .head1 {
+    font-size: var(--header-heading-mob);
+  }
+
+  .header {
+    height: 70vw;
+  }
+}
